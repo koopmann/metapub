@@ -4,7 +4,7 @@ from .config import PKGNAME, API_KEY
 from .exceptions import MetaPubError
 
 try:
-    import eutils
+    import biocommons.eutils as eutils
 except ImportError:
     eutils = None
 

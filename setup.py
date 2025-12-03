@@ -97,7 +97,7 @@ setup(
         "lxml",
         "lxml_html_clean",
         "requests",
-        "eutils",
+        "biocommons-eutils",
         "habanero",
         "tabulate",
         "cssselect",

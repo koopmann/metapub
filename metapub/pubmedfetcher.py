@@ -3,7 +3,7 @@ __doc__ = '''metapub.PubMedFetcher -- tools to deal with NCBI's E-utilities inte
 
 from lxml import etree
 import requests
-import eutils
+import biocommons.eutils as eutils
 import logging
 
 from .eutils_common import get_eutils_client
