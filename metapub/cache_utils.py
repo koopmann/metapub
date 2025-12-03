@@ -6,7 +6,7 @@ from datetime import datetime
 
 # this is kinda ugh. we shouldn't be using an "internal" module, but the
 # eutils package structure changed suddenly. Replace with bespoke...?
-from eutils._internal.sqlitecache import SQLiteCache
+from biocommons.eutils._internal.sqlitecache import SQLiteCache
 
 from .config import PKGNAME, DEFAULT_CACHE_DIR
 from .exceptions import MetaPubError
